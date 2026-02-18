@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crowdfunding DApp</title>
+</head>
+<body>
+
+<h2>Crowdfunding</h2>
+
+<button id="connect">Connect Wallet</button>
+
+<h3>Create Campaign</h3>
+<input id="goal" placeholder="Goal in ETH"/>
+<input id="duration" placeholder="Duration seconds"/>
+<button id="create">Create</button>
+
+<h3>Pledge</h3>
+<input id="campaignId" placeholder="Campaign ID"/>
+<input id="amount" placeholder="ETH amount"/>
+<button id="pledge">Pledge</button>
+
+<h3>Withdraw</h3>
+<input id="withdrawId" placeholder="Campaign ID"/>
+<button id="withdraw">Withdraw</button>
+
+<h3>Refund</h3>
+<input id="refundId" placeholder="Campaign ID"/>
+<button id="refund">Refund</button>
+
+<p id="status"></p>
+
+<script src="https://cdn.jsdelivr.net/npm/ethers@6.10.0/dist/ethers.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
